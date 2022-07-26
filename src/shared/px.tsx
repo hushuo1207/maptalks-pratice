@@ -1,0 +1,1 @@
+export const px = (n: any) => n / 2420 * (window as any).pageWidth;

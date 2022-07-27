@@ -7,6 +7,9 @@ export const Header = defineComponent({
   //   },
   // },
   setup: (props, context) => {
-    return () => <div class={s.wrapper}>header</div>;
+    return () => <div class={s.wrapper}>
+      <div class="title">天津市突发事件预警信息发布系统</div>
+      <div class="content">heheda</div>
+      </div>;
   },
 });

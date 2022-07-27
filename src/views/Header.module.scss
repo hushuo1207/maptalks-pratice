@@ -1,6 +1,43 @@
-.wrapper{
+.wrapper {
   height: 8%;
   width: 100%;
   // background: var(--title-blue-bg);
   color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 24px;
+  > .title {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    align-items: center;
+    padding-left: 10px;
+    > svg {
+      height: 36px;
+      width: 36px;
+    }
+    > .titleContent {
+      padding-left: 10px;
+    }
+  }
+  > .content {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    align-items: center;
+    > div {
+      padding: 0 6px;
+      font-size: 16px;
+      > svg {
+        height: 16px;
+        width: 16px;
+        fill: white;
+        
+      }
+      > span{
+        padding-left: 6px
+      }
+    }
+  }
 }
